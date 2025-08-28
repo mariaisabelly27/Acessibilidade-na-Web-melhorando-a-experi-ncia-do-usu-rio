@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+    --sofia-roxo: #9c27b0;
+    --sofia-lilas: #f3e5f5;
+    --sofia-dourado: #ffd700;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--sofia-lilas);
+}
+
+header {
+    background-color: var(--sofia-roxo);
+    color: white;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: var(--sofia-dourado);
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url('img/sofia-castelo.jpg'); /* imagem temática */
+    background-size: cover;
+    background-position: center;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 40rem;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 15px var(--sofia-dourado);
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.botao-inicio {
+    background-color: var(--sofia-dourado);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    color: #4a148c;
+    font-weight: bold;
+}
+
+.display-4 {
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 2px 2px var(--sofia-roxo);
+    color: white;
+}
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/sofia-flor.png') top right no-repeat,
+                url('img/sofia-flor-esquerda.png') bottom left no-repeat;
+    background-size: 180px 180px;
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    color: var(--sofia-roxo);
+}
+
+#galeria {
+    background-color: #fce4ec;
+}
+
+.fundo-galeria {
+    background: url('img/sofia-flor-bottom.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('img/sofia-fundo.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 20px
